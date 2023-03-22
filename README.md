@@ -20,6 +20,7 @@ public class SubscriptionTest {
         // Equivalence partitioning - define input values
         String[] types = {"Lite", "Classic", "Premium"};
         String[] countries = {"SA", "Kuwait", "Bahrain"};
+        String[] currency = {"SAR", "KWD", "BHD"};
 
         // Loop through all combinations of input values
         for (String type : types) {
